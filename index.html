@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>bollywood</title>
+</head>
+<body>
+    <div class="bg-image">
+        <div class="page-header">
+            <p id="b1">B</p><p id="b2">O</p><p id="b3">L</p><p id="b4">L</p><p id="b5">Y</p><p id="b6">W</p><p id="b7">O</p><p id="b8">O</p><p id="b9">D</p>
+        </div>
+        <div class="container" id="container-1">
+            <button class="btn btn-warning" onclick="startgame()">Start</button>
+        </div>
+        <div class="container2" id="container2">
+            <h2 id="movieName"></h2>
+            <div class="input" id="input">
+                <form id="frm" action="">
+                    <input type="text" name="letterGuessed" placeholder="enter a guess letter"><br>
+                    <input type="text" name="fullname" placeholder="enter full name,if u have gussed">
+                </form>
+                
+            </div>
+            <div class="btn-div" id="submitBtn">
+                <button class="btn btn-warning"  onclick="lettercheck()">submit</button>
+            </div>
+        </div>
+        <div class="playAgain">
+            <button class="btn btn-warning" id="btnPlay" onclick="reload()">PLAY AGAIN </button>
+        </div>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
