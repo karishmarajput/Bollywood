@@ -84,6 +84,7 @@ function lettercheck(){
     }
 }
 function gameover(text){
+    document.getElementById('movieName').innerHTML = arrOg.join('');
     document.getElementById("input").innerHTML='<h2>'+ text +'</h2>';
     document.getElementById('submitBtn').innerHTML='<h2> Game Over!!</h2>';
     document.getElementById('btnPlay').style.display= "block";
